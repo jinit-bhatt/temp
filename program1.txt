@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+float m1,m2,m3,m4,result;
+char* name;
+printf("Enter name of student:");
+scanf("%s",&name);
+printf("Enter marks for physics:");
+scanf("%f",&m1);
+printf("\nEnter marks for Chem:");
+scanf("%f",&m2);
+printf("\nEnter marks for Maths:");
+scanf("%f",&m3);
+printf("\nEnter marks for English:");
+scanf("%f",&m4);
+
+result=m1+m2+m3+m4
+printf("\ntotal marks = %f",result);
+
+}
